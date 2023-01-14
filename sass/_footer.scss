@@ -1,0 +1,13 @@
+@import "variables";
+
+.footer {
+  width: 100%;
+  text-align: center;
+  line-height: 100px;
+  height: 100px;
+  margin-top: $margin-procent;
+  background-color: $footer-bg;
+  &--span {
+    color: rgba(255, 255, 255, 0.832);
+  }
+}

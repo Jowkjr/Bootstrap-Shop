@@ -1,0 +1,35 @@
+@import "variables";
+
+.jumbotron {
+  background-color: #fff;
+
+  .jumbotron--container {
+    background-color: $jumbotron-bg;
+    width: 100%;
+    border: 5px solid rgb(251, 32, 3);
+    margin-top: $margin-procent;
+    border-radius: $margin-procent;
+    .h1-jumbotron {
+      font-weight: bold;
+    }
+
+    .p-jumbotron {
+      font-weight: 400;
+    }
+
+    @media (max-width: 1024px) {
+      .h1-jumbotron,
+      .p-jumbotron {
+        text-align: center;
+      }
+
+      .batman-img {
+        margin: auto;
+      }
+      .container--btn {
+        // width: 100%;
+        text-align: center;
+      }
+    }
+  }
+}
